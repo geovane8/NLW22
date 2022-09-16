@@ -10,5 +10,5 @@ Projeto xonstruido do evento Next Level Week da Rocketseat
 - CSS
 - GIT e GITHUB
 
- ## ❤️ CONTATO
+ ## ❤️ Contato
  geovane.n7@gmail.com
