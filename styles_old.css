@@ -1,0 +1,78 @@
+/* elimina os espaços a pagina*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    /*retira os pontos da ocultos gerados pela criação de uma lista da pagina*/
+}
+
+body {
+    background-image: url(./assets/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+    /*altura da linha*/
+}
+
+
+/*indetifica todos os elementos de uma pagina e os espaços existentes */
+
+
+/*
+    main * {
+        border: 1px solid red;
+    }
+    /*define o tamanho  dos cards da homepage*/
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 24x;
+}
+
+section {
+    color: white;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+    /*font-weight: 900;
+    font-size: 24px; */
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
+}
+
+
+/*display visualização organização das caixas (ul) no html*/
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+.games-list img {
+    width: 90px;
+    border-radius: 8px;
+}
+
+.channel-list img {
+    width: 70px;
+    border-radius: 50px;
+    /*arredodamento das bordas*/
+}
